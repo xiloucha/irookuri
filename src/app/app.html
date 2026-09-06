@@ -55,7 +55,7 @@
   
   
       <div class="picker-area">
-  
+
         <button
           class="color-button"
           [style.background-color]="selectedColor"
@@ -63,15 +63,16 @@
         >
           ↑
         </button>
-  
+      
         <input
           #colorInput
           class="hidden-picker"
+          [class.picker-disabled]="colorSelected"
           type="color"
           [value]="selectedColor"
           (change)="selectColor($event)"
         >
-  
+      
       </div>
   
   

@@ -111,6 +111,7 @@ body {
 }
 
 .color-button {
+  position: relative;
   width: 46px;
   height: 46px;
 
@@ -136,11 +137,20 @@ body {
 .hidden-picker {
   position: absolute;
 
-  width: 1px;
-  height: 1px;
+  left: 0;
+  top: 0;
+
+  width: 46px;
+  height: 46px;
 
   opacity: 0;
 
+  cursor: pointer;
+
+  z-index: 2;
+}
+
+.picker-disabled {
   pointer-events: none;
 }
 
