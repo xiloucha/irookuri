@@ -1,59 +1,71 @@
-# Irookuri
+# IROOKURI
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.6.
+Send a color.
 
-## Development server
+Choose a color,
+and let it join the others.
 
-To start a local development server, run:
+You can keep three colors.
+Or four.
+Or five.
 
-```bash
-ng serve
-```
+When a new color arrives,
+the oldest one quietly leaves.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Colors come in.
+Colors go out.
 
-## Code scaffolding
+You can keep sending them,
+and try different combinations
+again and again.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Each color also has a small code:
+a HEX value,
+a quiet way of naming the color.
 
-```bash
-ng generate component component-name
-```
+Maybe you're looking for colors.
+Maybe you're making something.
+Maybe you're just curious
+what happens when one color meets another.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+There is no answer.
 
-```bash
-ng generate --help
-```
+Just send a color,
+and see what comes next.
 
-## Building
+---
 
-To build the project run:
+# 色送り
 
-```bash
-ng build
-```
+色を、ひとつ送る。
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+色を選ぶと、
+そこに新しい色が加わる。
 
-## Running unit tests
+表示する色は、
+3色、4色、5色から選べる。
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+新しい色がやってくると、
+いちばん古い色が、そっと消えていく。
 
-```bash
-ng test
-```
+色が来て、
+色が去っていく。
 
-## Running end-to-end tests
+何度でも色を送って、
+いろいろな組み合わせを試してみる。
 
-For end-to-end (e2e) testing, run:
+それぞれの色には、
+HEXコードも表示されます。
 
-```bash
-ng e2e
-```
+色を探しているのかもしれない。
+何かを作っているのかもしれない。
+ただ、色と色を並べてみたいだけかもしれない。
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+正解はありません。
 
-## Additional Resources
+色をひとつ送ってみる。
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+その次に、
+どんな色が来るのかを見る。
+
+そんな小さな色のアプリです。
